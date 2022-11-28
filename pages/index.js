@@ -6,13 +6,13 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Next JS</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <h1 className={styles.title}>
-          Read <a href="/posts/first-post"> this page!</a>
+          Read <Link href="/posts/first-post"> this page!</Link>
         </h1>
 
         <p className={styles.description}>
